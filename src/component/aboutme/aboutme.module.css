@@ -1,0 +1,31 @@
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4rem;
+  background-color: rgb(29, 19, 40);
+}
+.leftMe {
+  max-width: 35%;
+}
+.leftMe h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  border: 3px solid blueviolet;
+  border-radius: 3rem 0;
+  padding: 1rem;
+}
+.leftMe p {
+  font-size: 10px;
+}
+.leftMe p span{
+  color: blueviolet;
+}
+.rightMe {
+  max-width: 50%;
+}
+.boy {
+  width: 380px;
+}
+

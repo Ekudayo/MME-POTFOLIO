@@ -1,0 +1,48 @@
+.rightContainer{
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  gap: 4rem;
+  height: 600px;
+  cursor: pointer;
+}
+.uptext{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.uptext h1{
+font-size: 2.8rem; 
+}
+.uptext span{
+color: blueviolet ;
+}
+.uptext p{
+font-size: 1rem;
+}
+.smallText{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 1.1rem;
+}
+.downtext{display: flex;
+flex-direction: column;
+background-color:rgba(8, 4, 4, 0.867);
+border: 2px solid blueviolet;
+max-width: 180px;
+place-content: center;
+padding: 1rem;
+height: 250px;
+border-radius: 1.5rem;
+}
+.downtext div{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.downtext div span {
+ font-size: 3rem;
+ color: blueviolet;
+}

@@ -1,0 +1,15 @@
+.infor{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 6rem;
+  height: 700px;
+  align-items: center;
+}
+@media  (max-width: 1020px) {
+.infor{
+  flex-direction: column;
+gap: 5rem;
+
+}
+}
