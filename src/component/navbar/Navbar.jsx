@@ -1,5 +1,5 @@
 import styles from "../navbar/navbar.module.css";
-import logo3 from "../../assets/logo3.png";
+import MME1 from "../../assets/MME1.png";
 import { useState } from "react";
 import { FiAlignJustify } from "react-icons/fi";
 import { useEffect } from "react";
@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className={styles.navbarContainer}>
       <div className={styles.leftbar}>
-        <img className={styles.img} src={logo3} alt="MME Logo" />
+        <img className={styles.img} src={MME1} alt="MME Logo" />
       </div>
       <div
         className={styles.rightBar}
