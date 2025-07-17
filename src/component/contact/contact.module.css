@@ -1,0 +1,154 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form h1 {
+  color: blueviolet;
+}
+.form span {
+  color: blueviolet;
+}
+.shape {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.round {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: blueviolet;
+}
+.horizontal {
+  width: 8rem;
+  height: 3px;
+  background: blueviolet;
+}
+.name {
+  width: 500px;
+}
+.name input {
+  width: 350px;
+}
+.email {
+  width: 500px;
+}
+.emailDiv {
+  display: flex;
+  flex-direction: row;
+}
+.email input {
+  width: 350px;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+.message h2 {
+  color: blueviolet;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.topMessage {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.topMessage span {
+  color: blueviolet;
+}
+.messag {
+
+
+  margin-top: 1rem;
+ 
+
+}
+.messag input {
+  width: 450px;
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+.emailDiv {
+  width: 100px;
+}
+.submit {
+  width: 2rem;
+  color: blueviolet;
+  background-color: black;
+}
+.form button {
+  color: blueviolet;
+  background-color: black;
+  width: 7rem;
+  height: 3rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  border: 2px solid blueviolet;
+  font-size: 1rem;
+}
+@media (max-width: 800px) {
+ .form{
+  align-items: center;
+  justify-content: center;
+ }
+  .topMessage {
+    flex-direction: column;
+    width: 90%;
+  }
+  .messag input {
+    width: 290px;
+    height: 4rem;
+    margin-bottom: 1rem;
+  }
+  .email input {
+    width: 300px;
+  }
+  .name input {
+    width: 300px;
+  }
+}
+@media (max-width: 600px) {
+.message{align-items: center;
+justify-content: center;}
+  .form {
+    align-items: center;
+    justify-content: center;
+  }
+  .topMessage {
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .name {
+    width: 250px;
+  }
+  .name input {
+    width: 200px;
+  }
+  .email {
+    width: 250px;
+  }
+  .email input {
+    width: 200px;
+  }
+  .messag {
+    width: 280px;
+    /* margin-right: 2rem; */
+  }
+  .messag input {
+    width: 200px;
+  }
+}

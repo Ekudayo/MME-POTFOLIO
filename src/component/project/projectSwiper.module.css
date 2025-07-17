@@ -1,0 +1,83 @@
+.KqlProduct {
+  width: 98.7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: rgb(105, 98, 98);
+}
+.KqlProduct h1 {
+  color: rgb(40, 23, 56);
+}
+.swipper {
+  width: 100%;
+  height: auto;
+}
+.name{
+  color: white;
+}
+.roundedLined {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.roundedLine {
+  width: 190px; /* short line */
+  height: 3px; /* thickness */
+  background: rgb(40, 23, 56); /* your preferred color */
+  margin: 16px 0;
+  border: none;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  background: rgb(40, 23, 56);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.productCard {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: blueviolet;
+  width: 350px;
+  align-items: center;
+  /* min-height: 1rem; */
+  margin-bottom: 2rem;
+  /* margin-top: 1.3rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.swiper{
+  display: flex;
+  align-items: center;
+}
+.imgCard {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  height: auto;
+}
+.description {
+  padding: 0.5rem;
+  font-size: 11px;
+}
+.swiperSlides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 800) {
+  .KqlProduct {
+    width: 450px;
+  }
+}
+@media (max-width: 600) {
+  .KqlProduct {
+    width: 360px;
+  }
+}

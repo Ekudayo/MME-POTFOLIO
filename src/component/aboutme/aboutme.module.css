@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-around;
   padding: 4rem;
-  background-color: rgb(29, 19, 40);
+  background-color: #1d1328;
 }
 .leftMe {
   max-width: 35%;
@@ -16,16 +16,107 @@
   border-radius: 3rem 0;
   padding: 1rem;
 }
-.leftMe p {
-  font-size: 10px;
+.leftMe h1:hover {
+  color: blueviolet;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
+.leftMe p {
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .leftMe p span{
   color: blueviolet;
+  font-weight: bold;
+}
+.leftMe p span:hover{
+  color:blue
 }
 .rightMe {
   max-width: 50%;
 }
 .boy {
   width: 380px;
+}
+
+@media  (max-width:800px) {
+  .aboutMe{
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 40rem;
+  }
+  .boy{
+    width: 200px;
+    align-self: center;
+  }
+}
+@media  (max-width:800px) {
+  .aboutMe{
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 40rem;
+  }
+  .boy{
+    width: 200px;
+    align-self: center;
+  }
+}
+@media  (max-width:700px) {
+  .aboutMe{
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 48rem;
+    width: 668px;
+
+  }
+  .leftMe{
+   align-items: center;
+ width: 300px;
+ align-items: center;
+  }
+  .leftMe h1{
+   width: 300px;
+   font-size: 3rem;
+  }
+  .leftMe p{
+    width: 350px;
+    /* text-align: center;} */
+  }
+  .boy{
+    width: 300px;
+    align-self: center;
+  }
+}
+@media  (max-width:600px) {
+  .aboutMe{
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 53rem;
+    width: 380px;
+  
+  }
+  .leftMe{
+   align-items: center;
+ width: 300px;
+ align-items: center;
+  }
+  .leftMe h1{
+   width: 200px;
+   font-size: 2rem;
+  }
+  .leftMe p{
+    width: 150px;
+    /* text-align: center;} */
+  }
+  .boy{
+    width: 200px;
+    align-self: center;
+  }
 }
 

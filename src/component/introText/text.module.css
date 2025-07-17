@@ -5,6 +5,7 @@
   gap: 4rem;
   height: 600px;
   cursor: pointer;
+  
 }
 .uptext{
   display: flex;
@@ -45,4 +46,12 @@ border-radius: 1.5rem;
 .downtext div span {
  font-size: 3rem;
  color: blueviolet;
+}
+@media  (max-width:600px) {
+  .rightContainer{
+   margin-bottom: 3rem;
+  }
+  .uptext h1{
+    font-size: 2rem; 
+    }
 }

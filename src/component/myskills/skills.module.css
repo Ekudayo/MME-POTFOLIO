@@ -1,0 +1,94 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.icon {
+  width: 3rem;
+}
+.skill h2 {
+  font-size: 2rem;
+  color: #b39ddb;
+  margin-top: 2rem;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  background: #b39ddb;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.roundedLined {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.roundedLine {
+  width: 150px; /* short line */
+  height: 2px; /* thickness */
+  border: none;
+
+  background: #b39ddb; /* your preferred color */
+  margin: 16px 0;
+}
+.h5 {
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 1rem;
+}
+.webDevelopment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: blueviolet;
+  color: whitesmoke;
+  padding: 1rem;
+}
+.webDevelopment ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 6px;
+  border-radius: 0 2rem;
+}
+
+.skillsList {
+  display: flex;
+  flex-direction: row;
+}
+.mySkill {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.skil {
+  list-style: none;
+  text-align: center;
+  
+}
+
+.skil div {
+  background-color: blueviolet;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  font-size: 50px;
+  color: white;
+  margin-right: 8px;
+}
+@media (max-width:600px) {
+  .h5{
+    font-size: 14px;
+  }
+}

@@ -60,4 +60,9 @@
   padding: 10px;
   border-radius: 3rem;
 }
-
+@media (max-width:600px) {
+.outlineColor {
+  height: 800px;
+  cursor: pointer;
+}
+}

@@ -6,28 +6,22 @@ const AboutMe = () => {
       <div className={styles.leftMe}>
         <h1>About Me</h1>
         <p>
-          I am <span>Mustapha</span>, a passionate front-end developer dedicated
-          to creating engaging and intuitive websites and web applications. I
-          specialize in translating design concepts and wireframes into
-          functional, visually appealing user interfaces using
-          <span> HTML, CSS, JavaScript and REACT</span>. My focus is on building
-          responsive and accessible experiences that function perfectly across
-          all devices and browsers. I work closely with designers to ensure the
-          visual and usability aspects of the interface meet project standards,
-          while optimizing performance for fast load times and smooth
-          interactions. I also integrate front-end components with backend
-          <span> APIs</span>
-          to enable <span>dynamic content and features</span> . Continuous
-          testing and debugging help me maintain high-quality, accessible, and
-          user-friendly websites. My technical skills include modern frameworks
-          and libraries such as React, Vue.js, and Angular, along with tools
-          like Webpack, Babel, and Git. I am committed to following best
-          practices in UX/UI design, accessibility, and performance to deliver{" "}
-          <span>
-            {" "}
-            websites that satisfy user needs and align with business goals
-          </span>
-          .
+          I am Mustapha, a dedicated <span>front-end developer</span> with a
+          passion for creating <span>engaging</span>, <span>responsive</span>,
+          and <span>accessible websites</span> and <span>web applications</span>
+          . I excel at transforming <span>design concepts</span> and{" "}
+          <span>wireframes</span> into <span>interactive user interfaces</span>{" "}
+          using <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>,
+          and <span>React</span>. My focus is on ensuring{" "}
+          <span>cross-browser compatibility</span>,{" "}
+          <span>fast performance</span>, and{" "}
+          <span>seamless user experiences</span>. I work closely with designers
+          to meet <span>project standards</span> and integrate{" "}
+          <span>front-end components</span> with <span>backend APIs</span>. I’m
+          committed to <span>continuous improvement</span>, <span>testing</span>
+          , and following <span>best practices</span> in{" "}
+          <span>UX/UI design</span>, <span>accessibility</span>, and{" "}
+          <span>modern development tools</span>.
         </p>
       </div>
       <div className={styles.rightMe}>

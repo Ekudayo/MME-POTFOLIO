@@ -4,7 +4,7 @@ import styles from "../intro/intro.module.css"
 const Intro = () => {
   return (
     <div className={styles.infor}>
-      <MyInfo />
+      < MyInfo />
       <Text />
     </div>
   )
