@@ -1,4 +1,4 @@
-import MME from "../../assets/mme.png";
+import MME from "../../assets/MME.png";
 import styles from "./my-info.module.css";
 
 const MyInfo = () => {
