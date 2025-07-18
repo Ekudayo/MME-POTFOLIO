@@ -1,5 +1,5 @@
 import MME from "../../assets/MME.png";
-import styles from "./my-info.module.css";
+import styles from "../user-info/my-info.module.css";
 
 const MyInfo = () => {
   return (
