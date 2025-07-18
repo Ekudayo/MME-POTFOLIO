@@ -1,4 +1,4 @@
-import Ai from "../../assets/ai.jpg";
+import Ai from "../../assets/Ai.jpg";
 import styles from "../aboutme/aboutme.module.css";
 const AboutMe = () => {
   return (

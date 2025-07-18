@@ -33,6 +33,8 @@ const Contact = () => {
                 <input
                   type="text"
                   value={name}
+                  name="name"
+              
                   onChange={(e) => setName(e.target.value)}
                 />
               </div>
@@ -44,6 +46,8 @@ const Contact = () => {
                 <input
                   type="text"
                   value={email}
+                  name="email"
+             
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
@@ -56,6 +60,8 @@ const Contact = () => {
               <input
                 type="text"
                 value={message}
+                name="message"
+             
                 onChange={(e) => setMessage(e.target.value)}
               />
             </div>

@@ -12,7 +12,6 @@ const Navbar = () => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "auto";
   }, [menuOpen]);
-  
 
   return (
     <div className={styles.navbarContainer}>
@@ -21,9 +20,7 @@ const Navbar = () => {
       </div>
       <div
         className={styles.rightBar}
-        // className={`${styles.rightBarMobileContainer} ${
-        //   menuOpen ? styles.active : ""
-        // }`}
+      
       >
         <h3>
           <span>Home</span>

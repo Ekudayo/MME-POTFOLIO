@@ -46,21 +46,21 @@
   gap: 0.5rem;
   font-size: 1.5rem;
 }
-.socialLinks span,h3 span {
-color: blueviolet;
+.socialLinks span,
+h3 span {
+  color: blueviolet;
 }
 
 @media screen and (max-width: 768px) {
- .navbarContainer{
-  margin-bottom: 2rem;
- }
+  .navbarContainer {
+    margin-bottom: 2rem;
+  }
   .rightBar {
     display: none;
   }
 
   .rightBarMobileContainer {
     display: none;
-    
   }
 
   .rightBarMobileContainer.active {
@@ -74,10 +74,13 @@ color: blueviolet;
     height: 2rem;
     color: blueviolet;
   }
-  .socialLinks{
+  .socialLinks {
     flex-direction: column;
   }
-  .socialLinks span,h3 ,span,a {
-color: black;
-}
+  .socialLinks span,
+  h3,
+  span,
+  a {
+    color: black;
+  }
 }

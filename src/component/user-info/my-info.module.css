@@ -62,7 +62,8 @@
 }
 @media (max-width:600px) {
 .outlineColor {
-  height: 800px;
+  height: 900px;
   cursor: pointer;
+  margin-bottom: 1rem;
 }
 }
