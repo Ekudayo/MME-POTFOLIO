@@ -6,22 +6,16 @@ const AboutMe = () => {
       <div className={styles.leftMe}>
         <h1>About Me</h1>
         <p>
-          I am Mustapha, a dedicated <span>front-end developer</span> with a
-          passion for creating <span>engaging</span>, <span>responsive</span>,
-          and <span>accessible websites</span> and <span>web applications</span>
-          . I excel at transforming <span>design concepts</span> and{" "}
-          <span>wireframes</span> into <span>interactive user interfaces</span>{" "}
-          using <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>,
-          and <span>React</span>. My focus is on ensuring{" "}
-          <span>cross-browser compatibility</span>,{" "}
-          <span>fast performance</span>, and{" "}
-          <span>seamless user experiences</span>. I work closely with designers
-          to meet <span>project standards</span> and integrate{" "}
-          <span>front-end components</span> with <span>backend APIs</span>. I’m
-          committed to <span>continuous improvement</span>, <span>testing</span>
-          , and following <span>best practices</span> in{" "}
-          <span>UX/UI design</span>, <span>accessibility</span>, and{" "}
-          <span>modern development tools</span>.
+          I am Mustapha, a dedicated front-end developer with a passion for
+          creating engaging,responsive, and accessible websites and web
+          applications . I excel at transforming design concepts and wireframes
+          into interactive user interfaces using HTML,CSS,JavaScript, and
+          React.My focus is on ensuring cross-browser compatibility, fast
+          performance, and seamless user experiences. I work closely with
+          designers to meet project standards and integrate front-end components
+          with backend APIs. I’m committed to continuous improvement,testing , and
+          following best practices in UX/UI design,accessibility, and modern
+          development tools.
         </p>
       </div>
       <div className={styles.rightMe}>

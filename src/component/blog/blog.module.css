@@ -78,7 +78,7 @@ h2 {
   color: blueviolet;
 }
 .readMore {
-  color: blueviolet;
+  color: rgb(159, 65, 247);
   display: flex;
   flex-direction: row;
 align-items: baseline;
@@ -127,6 +127,9 @@ align-items: baseline;
 .auth{
   width: 7rem;
 }
+.read {
+  color: blueviolet;
+}
  }
  @media  (max-width: 600px) {
   .downBlog{
@@ -138,6 +141,7 @@ align-items: baseline;
   .simpleTask{
     flex-direction: column;
   }
+ 
   .rightContent{
     width: 80%;
   }
@@ -158,5 +162,8 @@ align-items: baseline;
 }
 .info h5{
 margin-top: 0.5rem;
+}
+.read{
+  color: blueviolet;
 }
  }

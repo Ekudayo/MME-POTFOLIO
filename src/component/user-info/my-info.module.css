@@ -5,6 +5,7 @@
   border-radius: 4.2rem 0;
   height: 488px;
   cursor: pointer;
+
 }
 .outlineColor:hover {
   background-color: rgb(95, 6, 95);
@@ -62,8 +63,8 @@
 }
 @media (max-width:600px) {
 .outlineColor {
-  height: 900px;
+  height: 545px;
   cursor: pointer;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 }

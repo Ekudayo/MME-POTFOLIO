@@ -18,7 +18,7 @@ const MyInfo = () => {
           <span>
             <i className="fa-solid fa-location-crosshairs"></i>
           </span>
-          <h5>25, Mosaku, Oshodi, Lagos, Nigeria.</h5>
+          <h5>Lagos, Nigeria.</h5>
         </div>
         <div className={styles.contactInfo}>
           <span>

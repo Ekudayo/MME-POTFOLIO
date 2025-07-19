@@ -21,7 +21,7 @@ const ProjectSwiper = () => {
         className={styles.swipper}
         modules={[Navigation, Pagination]}
         spaceBetween={20}
-        slidesPerView={3}
+        slidesPerView={1}
         pagination={{ clickable: true }}
       >
         {KqlProduct.map((product) => (

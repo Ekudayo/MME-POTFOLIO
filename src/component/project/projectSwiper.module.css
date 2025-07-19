@@ -13,8 +13,9 @@
 .swipper {
   width: 100%;
   height: auto;
+
 }
-.name{
+.name {
   color: white;
 }
 .roundedLined {
@@ -45,14 +46,12 @@
   background-color: blueviolet;
   width: 350px;
   align-items: center;
-  /* min-height: 1rem; */
   margin-bottom: 2rem;
-  /* margin-top: 1.3rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.swiper{
+.swiper {
   display: flex;
   align-items: center;
 }
@@ -63,21 +62,21 @@
   height: auto;
 }
 .description {
-  padding: 0.5rem;
-  font-size: 11px;
+  padding: 0.8rem;
+  font-size: 14px;
 }
 .swiperSlides {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 800) {
+@media (max-width: 920px) {
   .KqlProduct {
-    width: 450px;
+    width: 920px;
   }
 }
-@media (max-width: 600) {
+@media (max-width: 600px) {
   .KqlProduct {
-    width: 360px;
+    width: 420px;
   }
 }

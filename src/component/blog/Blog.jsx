@@ -34,7 +34,7 @@ const Blog = () => {
                 up endless opportunities in tech!
               </h5>
               <div className={styles.readMore}>
-                <span>Read more </span>
+                <span className={styles.read}>Read more </span>
                 <span>
                   {" "}
                   <AiOutlineArrowRight />
