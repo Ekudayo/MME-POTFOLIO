@@ -11,10 +11,9 @@ const Contact = () => {
     alert(`Name:${name}|Email:${email}|Message:${message}`);
   };
   return (
-    <div>
-      <div className={styles.form}>
+    <div className={styles.contact}>
+      <div className={styles.for}>
         <h1>Contact</h1>
-
         <div className={styles.shape}>
           <span className={styles.round}></span>
           <span className={styles.horizontal}></span>
@@ -23,56 +22,41 @@ const Contact = () => {
         <p>I am currently open to freelance opportunities.</p>
       </div>
 
-<div className={styles.formMessage}>
-
-</div>
-
       <div className={styles.message}>
         <h2>Send Me A Text Message</h2>
         <form className={styles.form} onSubmit={hadleSubmit}>
-          <div className={styles.topMessage}>
-            <div className={styles.name}>
-              <span>Your Name *</span>
-              <div className={styles.name}>
-                <label>Enter Your Name</label>{" "}
-                <input
-                  type="text"
-                  value={name}
-                  name="name"
-              
-                  onChange={(e) => setName(e.target.value)}
-                />
-              </div>
-            </div>
-            <div className={styles.email}>
-              <span>Your Email *</span>
-              <div className={styles.email}>
-                <label>Enter Your email</label> {""}
-                <input
-                  type="text"
-                  value={email}
-                  name="email"
-             
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-            </div>
-          </div>
-          <div className={styles.messag}>
-            <span>Your Message *</span>
+          <div className={styles.inputOnly}>
             <div>
-              <label>Enter Your Message</label> {""}
+              <strong>Name</strong>
               <input
+                type="text"
+                value={name}
+                name="name"
+                onChange={(e) => setName(e.target.value)}
+              />
+            </div>
+            <div>
+              <strong>email</strong>
+              <input
+                type="text"
+                value={email}
+                name="email"
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </div>
+            <div className={styles.mesText}>
+              <strong>Message</strong>
+              <input
+                className={styles.messag}
                 type="text"
                 value={message}
                 name="message"
-             
                 onChange={(e) => setMessage(e.target.value)}
               />
             </div>
           </div>
           <button type={styles.submit}>
-            Submit{" "}
+            <strong> Submit </strong>
             <span>
               <SiMinutemailer />
             </span>{" "}

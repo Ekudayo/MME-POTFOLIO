@@ -4,6 +4,7 @@
   /* gap: 2rem; */
   align-items: center;
   margin-bottom: 2rem;
+  margin-top: 3rem;
 }
 .icon {
   width: 3rem;
@@ -70,7 +71,6 @@
 .skil {
   list-style: none;
   text-align: center;
-  
 }
 
 .skil div {
@@ -87,8 +87,27 @@
   color: white;
   margin-right: 8px;
 }
-@media (max-width:600px) {
-  .h5{
+@media (max-width: 600px) {
+  .h5 {
     font-size: 14px;
   }
+  .mySkill {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 300px) {
+  .mySkill {
+    width: 70%;
+  }
+  .webDevelopment {
+    width: 90%;
+  }
+  .webDevelopment ul {
+    display: flex;
+    flex-direction: column;
+  }
+
 }

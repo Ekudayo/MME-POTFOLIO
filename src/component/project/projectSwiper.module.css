@@ -6,9 +6,11 @@
   flex-direction: column;
   cursor: pointer;
   background-color: rgb(105, 98, 98);
+
 }
 .KqlProduct h1 {
   color: rgb(40, 23, 56);
+    margin-top: 3rem;
 }
 .swipper {
   width: 100%;

@@ -6,16 +6,17 @@
   padding: 4rem;
   background-color: #1d1328;
   align-content: center;
+  margin-top: 3rem;
 }
 .leftMe {
   max-width: 100%;
 }
 .leftMe h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
   border: 3px solid blueviolet;
-  border-radius: 3rem 0;
-  /* padding: 1rem; */
+  border-radius: 2rem 0;
+width: 60%;
 }
 .leftMe h1:hover {
   color: blueviolet;
@@ -52,6 +53,17 @@
     width: 400px;
     align-self: center;
   }
+  .leftMe{
+    width: 100%;
+    
+  }
+  .leftMe h1{
+    width: 100%;
+    border: none;
+  }
+  .leftMe p{
+    width: 100%;
+  }
 }
 @media (max-width: 700px) {
   .aboutMe {
@@ -59,13 +71,16 @@
     gap: 3rem;
     align-items: center;
   }
+  .aboutMe h1 {
+   width: 40%;
+  }
   .leftMe {
     align-items: center;
 
     align-items: center;
   }
   .leftMe h1 {
-    width: 300px;
+  
     font-size: 3rem;
   }
   .leftMe p {
@@ -85,7 +100,8 @@
   }
   .boy{width: 100%;}
   .leftMe h1{
-    width: 100%;
+ 
+width: 60%;
   }
   .leftMe p{
     width: 100%;
@@ -97,5 +113,9 @@
     width: 100%;
     
   }
+ 
+}
+@media (max-width: 300px) {
+
  
 }

@@ -33,20 +33,8 @@ const Blog = () => {
                 technologies—it's challenging but incredibly rewarding and opens
                 up endless opportunities in tech!
               </h5>
-              <div className={styles.readMore}>
-                <span className={styles.read}>Read more </span>
-                <span>
-                  {" "}
-                  <AiOutlineArrowRight />
-                </span>
-                <span>
-                  {" "}
-                  <AiOutlineArrowRight />
-                </span>
-
-               
-              </div>
-              <div className={styles.simpleTask}>
+           
+              {/* <div className={styles.simpleTask}>
                 <button className={styles.auth}>Web Develop</button>
                 <div className={styles.info}>
                   <h2>text</h2>
@@ -60,7 +48,7 @@ const Blog = () => {
                   <h2>Read</h2>
                   <h5>1 Min</h5>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -69,6 +57,7 @@ const Blog = () => {
       <div className={styles.downButton}>
         <button className={styles.viewMore}>View More</button>
         <button className={styles.subscribe}>Suscribe</button>
+        <p>COMING SOON</p>
       </div>
     </div>
   );

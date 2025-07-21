@@ -1,14 +1,19 @@
-.form {
+.contact {
+  gap: 1rem;
+}
+.for {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+ margin-bottom: 2rem;
 }
-.form h1 {
+.for h1 {
   color: blueviolet;
+  margin-top: 3rem;
 }
-.form span {
+.for span {
   color: blueviolet;
 }
 .shape {
@@ -16,6 +21,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+ margin-bottom: 1.5rem;
 }
 .round {
   width: 13px;
@@ -28,56 +34,43 @@
   height: 3px;
   background: blueviolet;
 }
-.name {
-  width: 500px;
-}
-.name input {
-  width: 350px;
-}
-.email {
-  width: 500px;
-}
-.emailDiv {
-  display: flex;
-  flex-direction: row;
-}
-.email input {
-  width: 350px;
-}
+
 .message {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  margin-top: 1rem;
-}
-.message h2 {
-  color: blueviolet;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
-}
+  gap: 1rem;
 
-.topMessage {
+}
+.form {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  align-items: center;
+  gap:2rem;
   justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.topMessage span {
-  color: blueviolet;
+.inputOnly {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: blueviolet;
+  width: 400px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
 }
 .messag {
-  margin-top: 1rem;
-}
-.messag input {
-  width: 450px;
   height: 4rem;
-  margin-bottom: 1rem;
 }
-.emailDiv {
-  width: 100px;
+.inputOnly div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
 }
 .submit {
   width: 2rem;
@@ -94,59 +87,36 @@
   border: 2px solid blueviolet;
   font-size: 1rem;
 }
-@media (max-width: 920px) {
-  .form {
-    align-items: center;
-    justify-content: center;
-  }
-  .topMessage {
-    flex-direction: column;
-    width: 90%;
-  }
-  .messag input {
-    width: 290px;
-    height: 4rem;
-    margin-bottom: 1rem;
-  }
-  .email input {
-    width: 300px;
-  }
-  .name input {
-    width: 300px;
-  }
-}
+
 @media (max-width: 600px) {
-  .message {
-    align-items: center;
-    justify-content: center;
-  }
-  .form {
-    align-items: center;
-    justify-content: center;
-  }
-  .topMessage {
-    flex-direction: column;
-    width: 300px;
-    justify-content: center;
-    align-items: center;
-  }
-  .name {
-    width: 250px;
-  }
-  .name input {
-    width: 200px;
-  }
-  .email {
-    width: 250px;
-  }
-  .email input {
-    width: 200px;
-  }
-  .messag {
-    width: 280px;
-    /* margin-right: 2rem; */
-  }
-  .messag input {
-    width: 200px;
-  }
+.contact{
+  width: 100%;
+}
+.form{
+  width: 90%;
+}
+}
+@media (max-width: 420px) {
+.inputOnly{
+  width: 90%;
+}
+.inputOnly div {
+  width: 90%;
+}
+}
+@media (max-width: 410px) {
+.inputOnly{
+  width: 90%;
+}
+.inputOnly div {
+  width: 90%;
+}
+}
+@media (max-width: 360px) {
+.inputOnly{
+  width: 90%;
+}
+.inputOnly div {
+  width: 90%;
+}
 }
