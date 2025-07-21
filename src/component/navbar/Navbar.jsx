@@ -75,7 +75,7 @@ const Navbar = () => {
       >
         <div className={styles.rightbar}>
           <h3>
-            <span>Home</span>
+            Home
           </h3>
           <h3>Blogs</h3>
           <nav className={styles.socialLinks}>

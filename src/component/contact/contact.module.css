@@ -60,7 +60,7 @@
 
 .topMessage {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 2rem;
   align-items: center;
   justify-content: center;
@@ -69,11 +69,7 @@
   color: blueviolet;
 }
 .messag {
-
-
   margin-top: 1rem;
- 
-
 }
 .messag input {
   width: 450px;
@@ -99,10 +95,10 @@
   font-size: 1rem;
 }
 @media (max-width: 920px) {
- .form{
-  align-items: center;
-  justify-content: center;
- }
+  .form {
+    align-items: center;
+    justify-content: center;
+  }
   .topMessage {
     flex-direction: column;
     width: 90%;
@@ -120,8 +116,10 @@
   }
 }
 @media (max-width: 600px) {
-.message{align-items: center;
-justify-content: center;}
+  .message {
+    align-items: center;
+    justify-content: center;
+  }
   .form {
     align-items: center;
     justify-content: center;

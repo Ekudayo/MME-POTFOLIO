@@ -22,6 +22,11 @@ const Contact = () => {
         </div>
         <p>I am currently open to freelance opportunities.</p>
       </div>
+
+<div className={styles.formMessage}>
+
+</div>
+
       <div className={styles.message}>
         <h2>Send Me A Text Message</h2>
         <form className={styles.form} onSubmit={hadleSubmit}>

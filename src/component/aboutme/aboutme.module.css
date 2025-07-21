@@ -58,11 +58,10 @@
     flex-direction: column;
     gap: 3rem;
     align-items: center;
-    width: 900px;
   }
   .leftMe {
     align-items: center;
-    width: 300px;
+
     align-items: center;
   }
   .leftMe h1 {
@@ -83,23 +82,20 @@
     gap: 3rem;
     align-items: center;
     /* margin-top: 10rem; */
-    width: 420px;
   }
-  .leftMe {
-    align-items: center;
-    width: 400px;
-    align-items: center;
+  .boy{width: 100%;}
+  .leftMe h1{
+    width: 100%;
   }
-  .leftMe h1 {
-    width: 300px;
-    font-size: 3rem;
+  .leftMe p{
+    width: 100%;
   }
-  .leftMe p {
-    width: 350px;
-   
+}
+@media (max-width: 300px) {
+  .aboutMe {
+    margin-top: 4rem;
+    width: 100%;
+    
   }
-  .boy {
-    width: 200px;
-    align-self: center;
-  }
+ 
 }

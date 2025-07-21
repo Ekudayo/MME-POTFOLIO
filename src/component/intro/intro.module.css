@@ -4,24 +4,25 @@
   justify-content: center;
   align-items: center;
   padding: 4rem;
-  width: 1270px;
+  /* width: 1500px; */
   gap: 6rem;
 }
-@media (max-width: 1020px) {
+
+
+@media (max-width: 950px) {
   .infor {
     flex-direction: column;
-    gap: 8rem;
-    width: 920px;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-
   }
 }
 @media (max-width: 600px) {
   .infor {
     flex-direction: column;
-    width: 420px;
    
+  }
+}
+@media (max-width: 400px) {
+  .infor {
+    flex-direction: column;
+    margin-bottom: 5rem;
   }
 }

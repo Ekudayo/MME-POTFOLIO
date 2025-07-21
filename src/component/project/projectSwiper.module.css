@@ -1,5 +1,5 @@
 .KqlProduct {
-  width: 98.7%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,14 +69,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-@media (max-width: 920px) {
-  .KqlProduct {
-    width: 920px;
-  }
-}
-@media (max-width: 600px) {
-  .KqlProduct {
-    width: 420px;
-  }
 }
