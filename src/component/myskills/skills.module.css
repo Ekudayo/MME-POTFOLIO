@@ -91,14 +91,18 @@
   .h5 {
     font-size: 14px;
   }
-  .mySkill {
+ 
+}
+@media (max-width: 289px) {
+ 
+ .mySkill {
     display: grid;
     grid-template-columns: 2fr;
     gap: 2rem;
     margin-top: 1rem;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 200px) {
   .mySkill {
     width: 70%;
   }
@@ -109,5 +113,10 @@
     display: flex;
     flex-direction: column;
   }
-
+ .mySkill {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
 }

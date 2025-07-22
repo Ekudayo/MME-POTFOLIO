@@ -26,19 +26,19 @@ const Skills = () => {
       </h5>
       <div className={styles.webDevelopment}>
         <FaChalkboard className={styles.icon} />
-        <span>Web Development </span>
+      Web Development 
         <ul>
           <li>
-            <span>HTML</span>
+           HTML
           </li>
           <li>
-            <span>CSS</span>
+           CSS
           </li>
           <li>
-            <span>JavaScript</span>
+           JavaScript
           </li>
           <li>
-            <span>React</span>
+           React
           </li>
         </ul>
       </div>
@@ -59,14 +59,14 @@ const Skills = () => {
           <div>
             <FaJs className={styles.icon} />
           </div>
-          <span>JavaScript</span>
+      JavaScript
         </li>
 
         <li className={styles.skil}>
           <div>
             <FaReact className={styles.icon} />
           </div>
-          <span> React</span>
+           React
         </li>
       </ul>
     </div>

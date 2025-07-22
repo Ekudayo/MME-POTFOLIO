@@ -31,6 +31,7 @@
   align-items: center;
   gap: 10px;
   margin-bottom: 10px;
+  
 }
 .contactInfo span {
   color: blueviolet;
@@ -61,7 +62,26 @@
 }
 @media (max-width: 600px) {
   .outlineColor {
-    height: 545px;
+    height: 100%;
     cursor: pointer;
+    width: 100%;
   }
+}
+@media (max-width: 300px) {
+  .outlineColor {
+    height: 100%;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+  }
+  .contactInfo {
+flex-direction: column;
+  
+}
+  .contactInfo h5{
+    width: 100%;
+  }
+.myInfoContainer{
+  border: none;
+}
 }

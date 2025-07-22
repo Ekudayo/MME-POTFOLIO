@@ -3,6 +3,10 @@ import MME1 from "../../assets/MME1.png";
 import { useState } from "react";
 import { FiAlignJustify } from "react-icons/fi";
 import { useEffect } from "react";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
+import Intro from "../intro/Intro.jsx";
+import Blog from "../blog/Blog.jsx";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,23 +22,34 @@ const Navbar = () => {
       <div className={styles.leftbar}>
         <img className={styles.img} src={MME1} alt="MME Logo" />
       </div>
-      <div
-        className={styles.rightBar}
-      
-      >
+      <div className={styles.rightBar}>
+        {/* <Router>
+          <Routes>
+            <Route path="/intro" element={<Intro />} />
+            <Route path="/blog" element={<Blog />} />
+          </Routes>
+        </Router> */}
+
         <h3>
-          <span>Home</span>
+          {/* <a href="/Intro">
+            {" "} */}
+          <span>Home</span> {/* </a> */}
+          {/* <Link to="/intro">Home</Link> */}
         </h3>
-        <h3>Blogs</h3>
+        <h3>
+          {/* <a href="/Blog" >
+            {" "} */}
+          <span>Blogs</span> {/* </a> */}
+        </h3>
         <nav className={styles.socialLinks}>
           <span>
-            <a
+            {/* <a
               href="https://github.com/Ekudayo"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className={"fa-brands fa-square-github"}></i>
-            </a>
+            </a> */}
           </span>
 
           <span>
@@ -74,9 +89,7 @@ const Navbar = () => {
         }`}
       >
         <div className={styles.rightbar}>
-          <h3>
-            Home
-          </h3>
+          <h3>Home</h3>
           <h3>Blogs</h3>
           <nav className={styles.socialLinks}>
             <span>

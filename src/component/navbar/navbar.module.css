@@ -68,6 +68,9 @@ h3 span {
     flex-direction: column;
     color: black;
   }
+.whatssap a{
+  color: green;
+}
   .faIcon {
     display: block;
     width: 2rem;

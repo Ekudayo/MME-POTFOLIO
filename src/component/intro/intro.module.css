@@ -8,21 +8,14 @@
   gap: 6rem;
 }
 
-
 @media (max-width: 950px) {
   .infor {
     flex-direction: column;
   }
 }
-@media (max-width: 600px) {
-  .infor {
-    flex-direction: column;
-   
-  }
-}
+
 @media (max-width: 400px) {
   .infor {
-    flex-direction: column;
     margin-bottom: 5rem;
   }
 }
